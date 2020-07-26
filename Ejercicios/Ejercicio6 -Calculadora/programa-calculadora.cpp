@@ -35,6 +35,7 @@ int main(int argc, char** argv)
     cout << "La multiplicacion de a * b es: " << multiplicacion << endl;
     cout << endl;
     cout << "La division de a / b es: " << division;
+    
 
 	return 0;
 }
