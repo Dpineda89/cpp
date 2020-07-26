@@ -26,8 +26,7 @@ int main(int argc, char const *argv[])
                     } else {
                         if (nota >= 0 && nota < 60) {
                             cout << "Obtubiste un F";
-                        } else
-                        {
+                        } else {
                             cout << "Ingrese una nota entre 0 - 100";
                         }
                         
