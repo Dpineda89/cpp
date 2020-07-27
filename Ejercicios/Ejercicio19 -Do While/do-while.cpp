@@ -16,6 +16,6 @@ int main(int argc, char const *argv[])
         cout << "(do while)a > b" << endl;
         break;
     } while (a > b);
-     
+         
     return 0;
 }
