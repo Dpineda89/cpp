@@ -20,21 +20,36 @@ int main(int argc, char const *argv[])
         cout << "Ingrese una opcion del menu: " << endl;
         cin >> opcion;
 
-        if (opcion == 1) {
+        
+        if (opcion == 0) {
+            break;
+        } 
+
+        switch (opcion)
+        {
+        case 1:
+        {
             system("cls");
             cout << "Estas en el menu de cafe y granitas" << endl;
             system("pause");
-        }
-
-        if (opcion == 2) {
-            system("cls");
-            cout << "Estas en el menu de Reposteria" << endl;
-            system("pause");
-        }
-
-        if (opcion == 0) {
             break;
-        }            
+        }
+        case 2: 
+        {
+            system("cls");
+            cout << "Estas en el menu de cafe y granitas" << endl;
+            system("pause");
+            break;
+        }
+        
+        default:
+            {
+                cout << "ingrese una opcion valida (0, 1, 2)" << endl;
+                system("pause");
+                break;
+            }
+        }
+           
     }
 
     cout << endl;
