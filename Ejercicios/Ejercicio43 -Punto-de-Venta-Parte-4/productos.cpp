@@ -30,9 +30,16 @@ void productos(int opcion)
             agregarProducto("Expresso", 1, 30);
             break;   
         default:
-            cout << "opcion no valida";
-            break;
+            {
+                cout << "opcion no valida";
+                return;
+                break;
+            }
         }
+
+        cout << endl;
+        cout << "producto agregado";
+        system("pause");
             
         break;
     }
