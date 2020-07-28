@@ -30,10 +30,10 @@ void productos(int opcion)
             agregarProducto("1 Capuccino              -L. 40.00", 1, 40);
             break;
         case 2:
-            agregarProducto("2 Expresso               -L. 30.00", 1, 30);
+            agregarProducto("1 Expresso               -L. 30.00", 1, 30);
             break;
         case 3:
-            agregarProducto("3 Latte con Crema        -L. 35.00", 1, 35);
+            agregarProducto("1 Latte con Crema        -L. 35.00", 1, 35);
             break;    
         default:
             {
@@ -69,10 +69,10 @@ void productos(int opcion)
             agregarProducto("1 Granita de cafe        -L. 45.00", 1, 45);
             break;
         case 2:
-            agregarProducto("2 Granita de Fresa       -L. 35.00", 1, 35);
+            agregarProducto("1 Granita de Fresa       -L. 35.00", 1, 35);
             break;   
         case 3:
-            agregarProducto("3 Granita Tropical       -L. 30.00", 1, 30);
+            agregarProducto("1 Granita Tropical       -L. 30.00", 1, 30);
             break; 
         default:
             {
@@ -107,10 +107,10 @@ void productos(int opcion)
             agregarProducto("1 Roles de Canela        -L. 48.00", 1, 48);
             break;
         case 2:
-            agregarProducto("2 Banderilla con Coco    -L. 38.00", 1, 37);
+            agregarProducto("1 Banderilla con Coco    -L. 38.00", 1, 37);
             break;   
         case 3:
-            agregarProducto("3 Bisquet con Miel       -L. 36.00", 1, 36);
+            agregarProducto("1 Bisquet con Miel       -L. 36.00", 1, 36);
             break; 
         default:
             {
