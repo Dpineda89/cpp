@@ -35,11 +35,11 @@ void menu()
         if (opcion == 4)
         {
             imprimirFactura();
+            break;
         } else {
             productos(opcion);
         }
         
-
         productos(opcion);
     }
 
