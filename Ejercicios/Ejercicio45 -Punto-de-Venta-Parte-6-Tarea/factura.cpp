@@ -27,15 +27,23 @@ void imprimirFactura()
     cout << listaProductos;
 
     cout << endl;
-    cout << "Subtotal: " << subtotal;
+    cout << "Subtotal: " << "L." << (subtotal);
     cout << endl;
 
     cout << endl;
-    cout << "Impuesto 15%: " << (impuesto);
+    cout << "Impuesto 15%: " << "L." << (impuesto);
     cout << endl;
 
     cout << endl;
-    cout << "Total a pagar: " << (total) << endl;
+    cout << "Total a pagar: " << "L." << (total) << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+
+
+    cout << "*****";
+    cout << "Gracias por su compra";
+    cout << "*****" << endl;
     cout << endl;
     system("pause");
 }

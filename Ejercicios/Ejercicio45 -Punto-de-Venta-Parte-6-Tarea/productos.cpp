@@ -15,7 +15,7 @@ void productos(int opcion)
     case 1:
     {
         cout << "BEBIDAS CALIENTES" << endl;
-        cout << "*************" << endl;
+        cout << "***********" << endl;
         cout << "1 - Capuccino" << endl;
         cout << "2 - Expresso" << endl;
         cout << "3 - Latte con Crema" << endl;
@@ -54,7 +54,7 @@ void productos(int opcion)
     case 2:
     {
         cout << "BEBIDAS FRIAS" << endl;
-        cout << "*************" << endl;
+        cout << "************" << endl;
         cout << "1 - Granita de cafe" << endl;
         cout << "2 - Granita de Fresa" << endl;
         cout << "3 - Granita Tropical" << endl;
@@ -92,7 +92,7 @@ void productos(int opcion)
     case 3:
     {
         cout << "REPOSTERIA" << endl;
-        cout << "*************" << endl;
+        cout << "**********" << endl;
         cout << "1 - Roles de Canela" << endl;
         cout << "2 - Banderilla con Coco" << endl;
         cout << "3 - Bisquet con Miel" << endl;
@@ -124,7 +124,7 @@ void productos(int opcion)
         cout << endl;
         cout << "Producto Agregado" << endl << endl;
         system("pause");
-
+        return;
         break;
     }    
     default:

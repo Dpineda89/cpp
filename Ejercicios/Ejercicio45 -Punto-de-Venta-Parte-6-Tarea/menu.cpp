@@ -29,6 +29,7 @@ void menu()
         cout << endl;
         cout << "Ingrese una opcion" << endl;
         cin >> opcion;
+        cout << endl;
 
         if(opcion == 0)
         {
