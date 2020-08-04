@@ -11,6 +11,7 @@ string obtenerNombreCompleto()
     return nombre + " " + apellido;
 }
 
+
 int obtenerEdad()
 {
     return edad;
