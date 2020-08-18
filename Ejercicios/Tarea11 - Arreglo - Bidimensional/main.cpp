@@ -23,7 +23,13 @@ int main(int argc, char const *argv[])
     {
         for (size_t j = 0; j < 5; j++)
         {
-            cout<<"["<<arreglo[i][j]<<"]";
+            if (arreglo[i][j] < 10)
+            {
+            cout<<"[0"<<arreglo[i][j]<<"] ";
+            }else
+            {
+            cout<<"["<<arreglo[i][j]<<"] ";
+            }           
             total = total + arreglo[i][j];
         }
         cout<<endl;
